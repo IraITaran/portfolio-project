@@ -116,6 +116,50 @@ nav .active {
   color: var(--branding-color) !important;
 }
 
+footer .email-link {
+  font-size: 24px;
+  text-decoration: none;
+  color: black;
+}
+
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+
+.social-links a {
+  color: var(--branding-color);
+  font-size: 18px;
+  margin: 0 30px 0 0;
+  padding: 14px 18px;
+  background: var(--secondary-color);
+  border-radius: 50%;
+}
+
+.social-links a:last-child {
+  margin: 0;
+}
+
+.social-links a:hover {
+  color: white;
+  background: var(--branding-color);
+}
+
+.contact-box {
+  background: var(--secondary-color);
+  border-radius: 10px;
+  padding: 30px 120px;
+}
+
+footer p {
+  margin: 0;
+  font-size: 18px;
+  color: rgba(39, 33, 66, 0.7);
+}
+
+h4 {
+  font-size: 48px;
+}
+
 @media (max-width: 900px) {
   .hero {
     padding: 80px 15px;
