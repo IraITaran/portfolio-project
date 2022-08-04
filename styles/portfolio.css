@@ -82,7 +82,7 @@ h2 {
 }
 
 .content-container {
-  padding: 160px 15px;
+  padding: 80px 15px;
 }
 
 .content {
@@ -110,6 +110,10 @@ h2 {
 
 .content-container img {
   border-radius: 30px;
+}
+
+nav .active {
+  color: var(--branding-color) !important;
 }
 
 @media (max-width: 900px) {
